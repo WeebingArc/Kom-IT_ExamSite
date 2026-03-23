@@ -1,0 +1,99 @@
+body {
+  background-color: #a16027;
+  margin: 0; /* ensure no default page gap */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* parallax image sits behind page content */
+.parallax {
+  /* The image used */
+  background-image: url("../Kom-IT_Shenanigans-Interactive/img/Courtroom.png");
+
+  /* cover the viewport and stay fixed behind content */
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(179, 140, 12);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.column{
+    width: 90%;
+    width: 60%;      /* width of the column */
+    margin-left: auto;     /* center horizontally and add vertical spacing */
+    margin-right: auto;
+    padding-top: 8%;
+    padding-bottom: 10%;
+    /* optional visual styling */
+    background: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+    color: #fff;
+
+    /* center content inside the column */
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* horizontal center of children */
+    justify-content: center;/* vertical centering if you give the column a height */
+    text-align: center;    /* center text */
+}
+
+.p {
+  position: fixed;
+}
+
+.redirect {
+  background: linear-gradient(90deg, blue, red);
+  border-style: solid;
+  padding: 10px;
+  border-radius: 10px;
+}
