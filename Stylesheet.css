@@ -1,5 +1,5 @@
 body {
-  background-color: #a16027;
+  background-color: #424a7b;
   margin: 0; /* ensure no default page gap */
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -7,7 +7,7 @@ body {
 /* parallax image sits behind page content */
 .parallax {
   /* The image used */
-  background-image: url("../Kom-IT_Shenanigans-Interactive/img/Courtroom.png");
+  background-image: url("MovieSet.png");
 
   /* cover the viewport and stay fixed behind content */
   position: fixed;
@@ -52,13 +52,13 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(179, 140, 12);
+  background-color: #424a7b;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #333;
+  background-color: #424a7b;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 0;
@@ -69,14 +69,14 @@ body {
 }
 
 .column{
-    width: 90%;
-    width: 60%;      /* width of the column */
+    width: 95%;
+    width: 90%;      /* width of the column */
     margin-left: auto;     /* center horizontally and add vertical spacing */
     margin-right: auto;
     padding-top: 8%;
-    padding-bottom: 10%;
+    padding-bottom: 20%;
     /* optional visual styling */
-    background: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+    background: radial-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6));
     color: #fff;
 
     /* center content inside the column */
