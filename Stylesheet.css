@@ -69,7 +69,6 @@ body {
 }
 
 .column{
-    width: 95%;
     width: 90%;      /* width of the column */
     margin-left: auto;     /* center horizontally and add vertical spacing */
     margin-right: auto;
