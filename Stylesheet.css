@@ -73,8 +73,8 @@ body {
     width: 90%;      /* width of the column */
     margin-left: auto;     /* center horizontally and add vertical spacing */
     margin-right: auto;
-    padding-top: 8%;
-    padding-bottom: 20%;
+    padding-top: 2%;
+    padding-bottom: 10%;
     /* optional visual styling */
     background: radial-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6));
     color: #fff;
